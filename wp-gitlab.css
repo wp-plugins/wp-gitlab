@@ -1,0 +1,93 @@
+.wpgitlab-profile {
+	background-color: #EEEEEE;
+	border: 1px solid #D5D5D5;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	padding:5px;
+	display: inline-block;
+}
+
+.wpgitlab-user{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.wpgitlab-user img{
+	vertical-align: top;
+	padding:5px;
+	float: left;
+}
+
+.wpgitlab-user h2{
+	margin-left: 70px;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+.wpgitlab-user h3 a{
+	color: #333333;
+}
+
+.wpgitlab-user p{
+	margin-left: 70px;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 0px;
+}
+
+.wpgitlab-bblock{    
+	display: inline-block;
+    font-size: 90%;
+    width: 100px;
+	text-align: center;
+	padding: 5px;
+	vertical-align: top;
+}
+
+.wpgitlab-bblock  > .wpgitlab-count{
+    background-color: #FFFFFF;
+    border: 1px solid #D5D5D5;
+	-webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    color: #333333;
+    display: block;
+    font-weight: bold;
+}
+
+.wpgitlab-bblock  > .wpgitlab-text{
+    background-color: #EEEEEE;
+    background-image: linear-gradient(#FCFCFC, #EEEEEE);
+	border-width: 0px 1px 1px;
+    border-color: #D5D5D5;
+    border-style: solid;
+	-webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    color: #333333;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+	line-height: 24px;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.wpgitlab-bblock:hover  > .wpgitlab-text{
+	background-image: linear-gradient(#EEEEEE, #DDDDDD);
+}
+
+.widget_gitlab_profile > .wpgitlab-profile{
+	display: block;
+}
+
+.widget_gitlab_profile > .wpgitlab-profile > .wpgitlab-bblock{
+	clear: both;
+	display: block;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
