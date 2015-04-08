@@ -14,12 +14,12 @@ Display users Gitlab public profile, repositories, commits, and issues.
 
 == Notes ==
 1. Your webserver must have the curl php module installed
-2. Some themes break the profile widget, if you know how to fix it it would be appreciated if you could help.
+2. Some themes break the profile widget. If you know how to fix this issue your help would be greatly appreciated.
 
 == Description ==
 
 WP Gitlab provides four sidebar widgets which can be configured to display public profile, repositories, commits, and issues from Gitlab in the sidebar. You can have as many widgets as you want configured to display different repositories.
-This plugin is based on the plugin WP Github by seinoxygen
+This plugin is based on the plugin WP Github by seinoxygen.
 
 Currently the plugin can list:
 
@@ -31,13 +31,13 @@ Currently the plugin can list:
 
 ### Using CSS
 
-You can apply a customized style to the plugin simply uploading a file called `custom.css` in the plugin folder. It will allow you to upgrade the plugin without loss your custom style.
+You can apply a customized style to the plugin simply uploading a file called `custom.css` in the plugin folder. It will allow you to upgrade the plugin without losing your custom style.
 
 ### Caching
 
-The plugin caches all the data retrieved from Gitlab every 10 minutes to avoid exceed the limit of api calls.
+The plugin caches all the data retrieved from Gitlab every 10 minutes to avoid exceeding the limit of api calls.
 
-Since version 1.0 you can clear the cache from the plugin settings page located in the Wordpress settings menu.
+You can clear the cache from the plugin settings page located in the Wordpress settings menu.
 
 ### Support
 
@@ -56,7 +56,7 @@ If you have found a bug/issue or have a feature request please report here: http
 
 You can use the following codes to display profile, repositories, commits, and issues:
 
-Embeed profile:
+Embed profile:
 `[Gitlab-profile username="cfarence"]`
 List last 10 repositories:
 `[Gitlab-repos username="cfarence" limit="10"]`
